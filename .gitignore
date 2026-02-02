@@ -138,10 +138,16 @@ vite.config.ts.timestamp-*
 .DS_Store
 
 # Project-specific: Generated/working directories
-upload/
-separated-audio/
-ready-video/
-additional/
+upload/*
+!upload/.gitkeep
+separated-audio/*
+!separated-audio/.gitkeep
+ready-video/*
+!ready-video/.gitkeep
+additional/*
+!additional/intro/
+additional/intro/*
+!additional/intro/.gitkeep
 
 # Claude Code settings
 .claude/
